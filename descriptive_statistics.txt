@@ -1,0 +1,44 @@
+Descriptive Statistics
+
+Descriptive Statistics involves getting a general summary of your data. It allows us to get an overall description of the data.
+
+For example, if you have loan data from a crowdfunding platform you might be interested in getting a summary of:
+
+- the total number of loans
+
+- the mean loan amount
+
+- the median loan amount
+
+- the total value of the loans
+
+This analysis can be done using graphs or general analysis. In Pandas, you can get a quick summary of your dataset using:
+
+- df.describe()
+
+
+
+
+Apart from the mean, other measures of central tendency are the median and mode
+
+You can also measure the spread in your data using the variance, range, standard deviation, and quartiles. The quartiles and standard deviation are seen when you do df.describe()
+
+The Standard Deviation tells you how far off every record is from the mean. A large standard deviation means that the dataset is more variable.
+
+The Variance is obtained by obtaining the average of the squared deviations from the mean. It signifies the degree of spread in the dataset. If the data is more spread then the variance is larger in relation to the mean.
+
+The Range is the difference between the lowest and the largest record in the dataset.
+
+Mean
+The mean is obtained by summing all the records and dividing that by the total of records. For example, to obtain the mean loan amount, all the loans in the dataset are totaled up and divided by the total number of loans. The mean is also referred to as the average.
+
+Mode
+The mode is the value that appears most often in the dataset. For example, given 2,4,5,7,9,3,5,3,6,3,7; the mode is 3 because it appears most often.
+
+Median
+The median is the record that appears in the middle of the dataset. The median is a better measure of central tendency especially when the dataset is skewed. For example, take an example where there are employees earning $90K and just a couple earning $900k. Clearly taking the mean of this will be quite high which is not an actual representation of the remuneration of the employees. In this case, the median would be a better measure to use.
+
+For example, given 2,3,7,10,15,20,25 the median would be obtained by taking the mean of the middle numbers i.e (10+15) / 2
+
+
+Link:   https://conjointly.com/kb/descriptive-statistics/
